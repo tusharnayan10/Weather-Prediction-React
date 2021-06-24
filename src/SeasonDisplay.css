@@ -1,0 +1,36 @@
+.season-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.season-display.Winter i {
+    color: #39A2DB;
+}
+.season-display.Summer i {
+    color: #FC5404;
+}
+.season-display.Winter{
+    background-color: #A2DBFA;
+}
+.season-display.Summer{
+    background-color: #F9B208;
+}
+.icon-left{
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+.icon-right{    
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+}
+.text.Summer{
+    color: #FC5404;
+    font-size: 5rem;
+}
+.text.Winter{
+    color: #185ADB;
+    font-size: 5rem;
+}
